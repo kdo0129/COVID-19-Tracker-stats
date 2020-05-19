@@ -1,4 +1,7 @@
 .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 50px 0;
 }
 
@@ -14,4 +17,10 @@
 }
 .deaths {
 	border-bottom: 10px solid #ffd8a8;
+}
+
+@media (max-width: 959px) {
+	.card {
+		margin: 2% 0 !important;
+	}
 }
